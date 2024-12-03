@@ -650,6 +650,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8310752629015671729, guid: cfc92c379e03f23449c46dd08ccdfb2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1911686084}
     - targetCorrespondingSourceObject: {fileID: -3822954687884456478, guid: cfc92c379e03f23449c46dd08ccdfb2c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 472612435}
@@ -657,6 +660,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1084462833}
   m_SourcePrefab: {fileID: 100100000, guid: cfc92c379e03f23449c46dd08ccdfb2c, type: 3}
+--- !u!1 &1911686083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8310752629015671729, guid: cfc92c379e03f23449c46dd08ccdfb2c, type: 3}
+  m_PrefabInstance: {fileID: 1911686082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1911686084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911686083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4044f8a98cd88c94092dc33417fdf57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Scene_Island
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
