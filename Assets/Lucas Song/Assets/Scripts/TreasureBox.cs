@@ -4,6 +4,7 @@ using UnityEngine;
 public class TreasureBox : MonoBehaviour
 {
     public GameObject camer;
+    public GameObject porta;
     public GameObject kraken1;
     public GameObject kraken2;
     public GameObject kraken3;
@@ -16,6 +17,7 @@ public class TreasureBox : MonoBehaviour
     public Transform posicao4;
     public Transform posicao5;
     public Transform posicao6;
+    public Transform posicao7;
     private Boolean verification = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnTriggerEnter(Collider other)
@@ -32,6 +34,7 @@ public class TreasureBox : MonoBehaviour
             Instantiate(kraken4, posicao4.position - new Vector3(0, 500, 0), Quaternion.identity);
             Instantiate(kraken5, posicao5.position - new Vector3(0, 500, 0), Quaternion.identity);
             Instantiate(kraken6, posicao6.position - new Vector3(0, 500, 0), Quaternion.identity);
+            Instantiate(porta, posicao7.position, Quaternion.Euler(0,-70,0));
 
             AudioSource audioSource = GetComponent<AudioSource>();
             audioSource.Play();
